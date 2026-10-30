@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* 詳細モーダル（<dialog>）のスタイル */
+.castle-modal {
+  border: none;
+  border-radius: 1rem;
+  padding: 0;
+  max-width: 36rem;
+  width: calc(100% - 2rem);
+  max-height: min(85vh, 42rem);
+  overflow-y: auto;
+}
+
+.castle-modal::backdrop {
+  background: rgb(28 25 23 / 0.6);
+}
