@@ -1,117 +1,47 @@
-# TypeScript Template Base
+# 日本のお城ガイド (nihon-no-shiro)
 
-A cross-platform TypeScript template repository optimized for Node.js tool development with consideration for future web frontend (React) migration.
+現存12天守を中心とした日本の名城を、一覧・検索・詳細確認できる静的 Web アプリケーションです。
 
-## Features
+- **用途**: 日本のお城情報の閲覧・キーワード検索・都道府県/分類での絞り込み
+- **ホスティング**: GitHub Pages（`https://y-maeda1116.github.io/nihon-no-shiro/`）
+- **データ**: `src/data/castles.json` に現存12天守 + 名古屋城・大阪城・二条城・首里城の17城を掲載
 
-- TypeScript 7 (Go-based, ~10x faster) with strict mode
-- Hot-reload development with `tsx`
-- Dual CJS/ESM build with `tsup`
-- Testing with Vitest
-- Linting with ESLint (flat config)
-- Formatting with Prettier
-- Environment variable validation with Zod
-- CI/CD with GitHub Actions (Ubuntu, Windows, macOS)
+## 機能
 
-## Requirements
+| 機能 | 説明 |
+|------|------|
+| 一覧表示 | カード型グリッドレイアウト（レスポンシブ、モバイル1列 / PC3列） |
+| キーワード検索 | 城名・読み仮名・都道府県・城主・タグの部分一致（デバウンス付き） |
+| 絞り込み | 都道府県別・城の分類（平城 / 平山城 / 山城）別 |
+| 詳細モーダル | 解説・築城年・主な城主・見どころ・座標を `<dialog>` で表示 |
 
-- Node.js >= 20.0.0
-- npm
+## 技術スタック
 
-## Setup
+- TypeScript 7（`@typescript/native`、テンプレートの side-by-side 構成を踏襲）
+- Vite 8 + Tailwind CSS v4（`@tailwindcss/vite` プラグイン）
+- Vitest（フィルターロジックとデータ整合性のユニットテスト）
+- GitHub Actions（CI + GitHub Pages デプロイ、アクションはコミット SHA ピン留め）
 
-1. Clone the repository
-2. Install dependencies:
+## 開発
 
 ```bash
 npm install
+npm run dev        # 開発サーバー
+npm run build      # 本番ビルド (dist/)
+npm run preview    # ビルド結果のプレビュー
+npm test           # ユニットテスト
+npm run typecheck  # 型チェック (TS 7 tsc)
+npm run lint       # ESLint
 ```
 
-3. Create environment file:
+## GitHub Pages へのデプロイ
 
-```bash
-cp .env.example .env
-```
+`main` ブランチへの push（または手動実行）で `.github/workflows/deploy.yml` が走り、`dist/` を GitHub Pages へデプロイします。
 
-4. Edit `.env` with your actual values:
+初回のみ、リポジトリの **Settings → Pages → Build and deployment → Source を「GitHub Actions」** に変更してください。
 
-```env
-DISCORD_TOKEN=your_discord_bot_token_here
-DEEPL_AUTH_KEY=your_deepl_auth_key_here
-```
+## データについて
 
-## Development
-
-Run in development mode with hot-reload:
-
-```bash
-npm run dev
-```
-
-## Testing
-
-Run tests:
-
-```bash
-npm test
-```
-
-Run tests in watch mode:
-
-```bash
-npm run test:watch
-```
-
-## Type Checking
-
-Run type checking with the native TypeScript 7 `tsc`:
-
-```bash
-npm run typecheck
-```
-
-> **Note:** TypeScript 7 does not yet ship the JavaScript compiler API that `typescript-eslint` (and `tsup`) depend on.
-> Following the [upstream side-by-side guidance](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/#running-side-by-side-with-typescript-6-0),
-> `@typescript/native` is an alias for `typescript@7` (provides `tsc`), while `typescript` is an alias for
-> `@typescript/typescript6` so tools importing the `typescript` API get the supported 6.x API.
-
-## Build
-
-Build for production:
-
-```bash
-npm run build
-```
-
-Run built files:
-
-```bash
-npm start
-```
-
-## Linting and Formatting
-
-Lint code:
-
-```bash
-npm run lint
-```
-
-Format code:
-
-```bash
-npm run format
-```
-
-## Environment Variables
-
-The following environment variables are required (customize for your project):
-
-| Variable | Description |
-|----------|-------------|
-| `DISCORD_TOKEN` | Discord bot token (example) |
-| `DEEPL_AUTH_KEY` | DeepL API key (example) |
-
-## License
-
-MIT
+- 城の分類（平城/平山城/山城）・年代・城主には諸説あります。掲載内容は代表的な説に基づきます
+- サムネイルは外部画像に依存しない SVG プレースホルダー（`src/utils/placeholder.ts`）で生成しています
+- データ追加は `src/data/castles.json` に項目を足すだけです（スキーマは `src/types.ts`）

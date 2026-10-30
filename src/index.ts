@@ -1,13 +1,55 @@
-import { config } from "./config/index.js";
+import "./style.css";
+import castlesData from "./data/castles.json";
+import { createCastleModal, openCastleModal } from "./components/castleModal";
+import { renderCastleCard } from "./components/castleCard";
+import { renderHeader } from "./components/header";
+import { renderSearchFilter } from "./components/searchFilter";
+import {
+  INITIAL_FILTER_STATE,
+  type FilterState,
+  extractPrefectures,
+  filterCastles,
+} from "./utils/filter";
+import { el } from "./utils/dom";
+import type { Castle } from "./types";
 
-console.log("Application starting...");
+const castles = castlesData as readonly Castle[];
 
-const shutdown = (signal: string) => {
-  console.log(`Received ${signal}, shutting down gracefully...`);
-  process.exit(0);
-};
+const headerElement = document.querySelector("header");
+const filterMount = document.querySelector<HTMLElement>("#search-filter");
+const countMount = document.querySelector<HTMLElement>("#result-count");
+const gridMount = document.querySelector<HTMLElement>("#castle-grid");
+const emptyMessage = document.querySelector<HTMLElement>("#empty-message");
 
-process.on("SIGINT", () => shutdown("SIGINT"));
-process.on("SIGTERM", () => shutdown("SIGTERM"));
+if (!headerElement || !filterMount || !countMount || !gridMount || !emptyMessage) {
+  throw new Error("必要なマウントポイントが index.html に存在しません");
+}
 
-console.log("Config loaded:", config);
+const modal = createCastleModal();
+document.body.append(modal);
+
+headerElement.replaceChildren(renderHeader(castles.length));
+
+let state: FilterState = INITIAL_FILTER_STATE;
+
+function renderResults(): void {
+  const results = filterCastles(castles, state);
+
+  countMount!.textContent = `${results.length}件の城が見つかりました`;
+  emptyMessage!.classList.toggle("hidden", results.length > 0);
+  gridMount!.replaceChildren(
+    ...results.map((castle) =>
+      renderCastleCard(castle, (selected: Castle) => openCastleModal(modal, selected))
+    )
+  );
+}
+
+filterMount.replaceChildren(
+  renderSearchFilter(extractPrefectures(castles), INITIAL_FILTER_STATE, (next) => {
+    state = next;
+    renderResults();
+  })
+);
+
+gridMount.replaceChildren(el("li", { className: "text-sm text-stone-400", text: "読み込み中…" }));
+renderResults();

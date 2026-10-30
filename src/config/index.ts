@@ -1,20 +1,13 @@
-import { z } from "zod";
-import dotenv from "dotenv";
+import type { CastleType } from "../types";
 
-dotenv.config();
+/** サイト表示名 */
+export const SITE_NAME = "日本のお城ガイド";
 
-const envSchema = z.object({
-  DISCORD_TOKEN: z.string().min(1),
-  DEEPL_AUTH_KEY: z.string().min(1),
-});
+/** 城の分類フィルターの選択肢 */
+export const CASTLE_TYPES: readonly CastleType[] = ["平城", "平山城", "山城"];
 
-const result = envSchema.safeParse(process.env);
+/** 「すべて」を選択する際のセレクト値 */
+export const FILTER_ALL = "all";
 
-if (!result.success) {
-  const missing = result.error.issues
-    .map((issue) => `  - ${issue.path.join(".")}: ${issue.message}`)
-    .join("\n");
-  throw new Error(`Invalid environment variables:\n${missing}`);
-}
-
-export const config = result.data;
+/** キーワード入力のデバウンス時間（ミリ秒） */
+export const SEARCH_DEBOUNCE_MS = 150;
