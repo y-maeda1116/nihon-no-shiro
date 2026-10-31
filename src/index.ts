@@ -82,11 +82,14 @@ function setMapView(enabled: boolean): void {
   mapView = enabled;
   mapMount!.classList.toggle("hidden", !mapView);
   gridMount!.classList.toggle("hidden", mapView);
-  emptyMessage!.classList.toggle("hidden", mapView);
   setViewButtons();
   if (mapView) {
+    emptyMessage!.classList.add("hidden");
     castleMap.invalidate();
     castleMap.update(filterCastles(castles, state));
+  } else {
+    // 空メッセージの表示は結果件数に従う（地図では常に非表示）
+    emptyMessage!.classList.toggle("hidden", filterCastles(castles, state).length > 0);
   }
 }
 
