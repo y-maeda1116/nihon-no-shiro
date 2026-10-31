@@ -14,3 +14,38 @@
 .castle-modal::backdrop {
   background: rgb(28 25 23 / 0.6);
 }
+
+/* 地図モードのマーカー */
+.castle-marker {
+  background: transparent;
+  border: none;
+}
+
+.castle-marker-pin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 9999px;
+  background: rgb(255 255 255 / 0.92);
+  border: 2px solid rgb(120 113 108);
+  font-size: 18px;
+  line-height: 1;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.35);
+  transition: transform 0.15s ease;
+}
+
+.castle-marker-pin--existing {
+  border-color: rgb(180 83 9);
+  background: rgb(254 243 199 / 0.95);
+}
+
+.castle-marker:hover .castle-marker-pin {
+  transform: scale(1.15);
+}
+
+/* Leaflet の著作権表記（必須）をアプリのトーンに合わせる */
+.leaflet-control-attribution {
+  font-size: 10px;
+}
