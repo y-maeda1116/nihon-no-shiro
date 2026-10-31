@@ -14,10 +14,47 @@
     <header class="bg-gradient-to-br from-stone-800 to-stone-700"></header>
     <main class="mx-auto max-w-5xl px-4 pb-16">
       <section id="search-filter" class="-mt-6 relative z-10"></section>
-      <section id="result-count" class="mt-4 text-sm text-stone-500" aria-live="polite"></section>
+      <div class="mt-4 flex items-center justify-between gap-4">
+        <div
+          id="view-toggle"
+          role="tablist"
+          aria-label="表示モード"
+          class="inline-flex overflow-hidden rounded-lg border border-stone-300 bg-white"
+        >
+          <button
+            id="view-list"
+            role="tab"
+            aria-selected="true"
+            class="px-4 py-1.5 text-sm font-medium bg-stone-800 text-white"
+          >
+            一覧
+          </button>
+          <button
+            id="view-map"
+            role="tab"
+            aria-selected="false"
+            class="px-4 py-1.5 text-sm font-medium text-stone-600 hover:bg-stone-100"
+          >
+            地図
+          </button>
+        </div>
+        <section id="result-count" class="text-sm text-stone-500" aria-live="polite"></section>
+      </div>
       <ul id="castle-grid" class="mt-3 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3"></ul>
+      <div
+        id="castle-map"
+        class="mt-3 hidden h-[420px] w-full rounded-xl border border-stone-300 sm:h-[560px]"
+        aria-label="日本地図上のお城の位置"
+      ></div>
       <p id="empty-message" class="mt-12 hidden text-center text-stone-500" role="status">
         条件に一致するお城が見つかりませんでした。
+      </p>
+      <p
+        id="map-empty-message"
+        class="mt-8 hidden text-center text-sm text-stone-500"
+        role="status"
+      >
+        条件に一致するお城が地図上にありません。
       </p>
     </main>
     <footer class="border-t border-stone-200 bg-white py-6 text-center text-xs text-stone-400">

@@ -24,7 +24,7 @@ describe("filterCastles", () => {
 
   it("キーワードが城主に部分一致する城を返す", () => {
     const result = filterCastles(castles, { ...INITIAL_FILTER_STATE, keyword: "加藤" });
-    expect(result.map((c) => c.id)).toEqual(["kumamoto", "matsuyama"]);
+    expect(result.map((c) => c.id)).toEqual(["kumamoto", "matsuyama", "ozu"]);
   });
 
   it("キーワードがタグに部分一致する城を返す", () => {
@@ -34,7 +34,7 @@ describe("filterCastles", () => {
 
   it("都道府県で絞り込む", () => {
     const result = filterCastles(castles, { ...INITIAL_FILTER_STATE, prefecture: "愛媛県" });
-    expect(result.map((c) => c.id)).toEqual(["matsuyama", "uwajima"]);
+    expect(result.map((c) => c.id)).toEqual(["matsuyama", "uwajima", "imabari", "yuzuki", "ozu"]);
   });
 
   it("城の分類で絞り込む", () => {
