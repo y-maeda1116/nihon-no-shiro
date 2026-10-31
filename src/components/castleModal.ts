@@ -1,4 +1,5 @@
 import type { Castle } from "../types";
+import { castlePhoto, type CastlePhoto } from "../data/castlePhotos";
 import { el } from "../utils/dom";
 import { castleThumbnail } from "../utils/placeholder";
 
@@ -13,7 +14,11 @@ export function createCastleModal(): HTMLDialogElement {
 }
 
 /** お城の詳細をモーダルに表示する */
-export function openCastleModal(dialog: HTMLDialogElement, castle: Castle): void {
+export function openCastleModal(
+  dialog: HTMLDialogElement,
+  castle: Castle,
+  photo: CastlePhoto | undefined = castlePhoto(castle.id)
+): void {
   const closeButton = el("button", {
     className:
       "absolute right-4 top-4 cursor-pointer rounded-full bg-stone-900/70 px-3 py-1.5 text-sm text-white transition hover:bg-stone-900",
@@ -24,8 +29,27 @@ export function openCastleModal(dialog: HTMLDialogElement, castle: Castle): void
 
   const image = el("img", {
     className: "h-44 w-full object-cover sm:h-56",
-    attributes: { src: castleThumbnail(castle), alt: `${castle.name}の外観イメージ` },
+    attributes: {
+      src: photo?.thumbUrl ?? castleThumbnail(castle),
+      alt: photo ? `${castle.name}の写真` : `${castle.name}の外観イメージ`,
+    },
   });
+
+  // ライセンス上の表示義務を満たすクレジット（写真がある城のみ）
+  const photoCredit = photo
+    ? el("p", {
+        className: "text-[11px] text-stone-400",
+        children: [
+          `写真: ${photo.author} / ${photo.license}（`,
+          el("a", {
+            className: "underline hover:text-stone-600",
+            attributes: { href: photo.sourceUrl, target: "_blank", rel: "noopener noreferrer" },
+            text: "Wikimedia Commons",
+          }),
+          "）",
+        ],
+      })
+    : null;
 
   const badges = el("div", {
     className: "flex flex-wrap gap-2",
@@ -96,7 +120,16 @@ export function openCastleModal(dialog: HTMLDialogElement, castle: Castle): void
       image,
       el("div", {
         className: "p-5 sm:p-6",
-        children: [badges, title, kana, summary, infoList, featureHeading, featureList],
+        children: [
+          ...(photoCredit ? [photoCredit] : []),
+          badges,
+          title,
+          kana,
+          summary,
+          infoList,
+          featureHeading,
+          featureList,
+        ],
       }),
     ],
   });

@@ -10,6 +10,20 @@ export default [
     ignores: ['dist/', 'node_modules/'],
   },
   {
+    // Node.js で直接実行する保守スクリプト用のグローバル
+    files: ['scripts/**/*.mjs'],
+    languageOptions: {
+      globals: {
+        console: 'readonly',
+        fetch: 'readonly',
+        process: 'readonly',
+        setTimeout: 'readonly',
+        URL: 'readonly',
+        URLSearchParams: 'readonly',
+      },
+    },
+  },
+  {
     rules: {
       'security/detect-object-injection': 'warn',
       'security/detect-non-literal-fs-filename': 'warn',

@@ -1,9 +1,14 @@
 import type { Castle } from "../types";
+import { castlePhoto, type CastlePhoto } from "../data/castlePhotos";
 import { el } from "../utils/dom";
 import { castleThumbnail } from "../utils/placeholder";
 
 /** お城カード（li 要素）を生成する。クリックで詳細モーダルを開く。 */
-export function renderCastleCard(castle: Castle, onSelect: (castle: Castle) => void): HTMLElement {
+export function renderCastleCard(
+  castle: Castle,
+  onSelect: (castle: Castle) => void,
+  photo: CastlePhoto | undefined = castlePhoto(castle.id)
+): HTMLElement {
   const typeBadge = el("span", {
     className: "rounded-full bg-stone-100 px-2 py-0.5 text-xs font-medium text-stone-700",
     text: castle.type,
@@ -20,7 +25,11 @@ export function renderCastleCard(castle: Castle, onSelect: (castle: Castle) => v
 
   const image = el("img", {
     className: "h-40 w-full object-cover",
-    attributes: { src: castleThumbnail(castle), alt: `${castle.name}の外観イメージ` },
+    attributes: {
+      src: photo?.thumbUrl ?? castleThumbnail(castle),
+      alt: photo ? `${castle.name}の写真` : `${castle.name}の外観イメージ`,
+      loading: "lazy",
+    },
   });
 
   const name = el("span", {

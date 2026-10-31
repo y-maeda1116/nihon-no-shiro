@@ -1,0 +1,778 @@
+{
+  "himeji": {
+    "article": "姫路城",
+    "file": "090411 Himeji Castle Hyogo pref Japan06s5.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/090411_Himeji_Castle_Hyogo_pref_Japan06s5.jpg/960px-090411_Himeji_Castle_Hyogo_pref_Japan06s5.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:090411_Himeji_Castle_Hyogo_pref_Japan06s5.jpg",
+    "license": "CC BY 2.5",
+    "author": "663highland"
+  },
+  "matsumoto": {
+    "article": "松本城",
+    "file": "4 Marunouchi, Matsumoto-shi, Nagano-ken 390-0873, Japan - panoramio (21).jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/4_Marunouchi%2C_Matsumoto-shi%2C_Nagano-ken_390-0873%2C_Japan_-_panoramio_%2821%29.jpg/960px-4_Marunouchi%2C_Matsumoto-shi%2C_Nagano-ken_390-0873%2C_Japan_-_panoramio_%2821%29.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:4_Marunouchi,_Matsumoto-shi,_Nagano-ken_390-0873,_Japan_-_panoramio_(21).jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "kiwa dokokano"
+  },
+  "nagoya": {
+    "article": "名古屋城",
+    "file": "101001 Pink Nagoya-jo.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/101001_Pink_Nagoya-jo.jpg/960px-101001_Pink_Nagoya-jo.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:101001_Pink_Nagoya-jo.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "名古屋太郎"
+  },
+  "osaka": {
+    "article": "大阪城",
+    "file": "4th Division Headquarters, Imperial Japanese Army.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/4th_Division_Headquarters%2C_Imperial_Japanese_Army.jpg/960px-4th_Division_Headquarters%2C_Imperial_Japanese_Army.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:4th_Division_Headquarters,_Imperial_Japanese_Army.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Kakidai"
+  },
+  "kumamoto": {
+    "article": "熊本城",
+    "file": "Gate Minami-Otemon of Kumamoto Castle.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Gate_Minami-Otemon_of_Kumamoto_Castle.jpg/960px-Gate_Minami-Otemon_of_Kumamoto_Castle.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gate_Minami-Otemon_of_Kumamoto_Castle.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "そらみみ"
+  },
+  "hikone": {
+    "article": "彦根城",
+    "file": "Genkyuen03s3000.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Genkyuen03s3000.jpg/960px-Genkyuen03s3000.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Genkyuen03s3000.jpg",
+    "license": "CC BY 2.5",
+    "author": "663highland"
+  },
+  "inuyama": {
+    "article": "犬山城",
+    "file": "751006 Inuyama Cstl aerial.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/751006_Inuyama_Cstl_aerial.jpg/960px-751006_Inuyama_Cstl_aerial.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:751006_Inuyama_Cstl_aerial.jpg",
+    "license": "Attribution",
+    "author": "国土交通省国土地理院"
+  },
+  "matsue": {
+    "article": "松江城",
+    "file": "Burg Matsue Plan.jpg",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Burg_Matsue_Plan.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burg_Matsue_Plan.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Fraxinus2"
+  },
+  "hirosaki": {
+    "article": "弘前城",
+    "file": "Hirosaki-castle Aomori with Sakura blossoms.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Hirosaki-castle_Aomori_with_Sakura_blossoms.jpg/960px-Hirosaki-castle_Aomori_with_Sakura_blossoms.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hirosaki-castle_Aomori_with_Sakura_blossoms.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Si-take. at Japanese Wikipedia(しいたけ)"
+  },
+  "bicchu-matsuyama": {
+    "article": "備中松山城",
+    "file": "Bitchu Matsuyama Casle observatory202111-1.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Bitchu_Matsuyama_Casle_observatory202111-1.jpg/960px-Bitchu_Matsuyama_Casle_observatory202111-1.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bitchu_Matsuyama_Casle_observatory202111-1.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Jogungagon"
+  },
+  "maruoka": {
+    "article": "丸岡城",
+    "file": "JapaneseCastle12ExistenceKeepTower.jpg",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/JapaneseCastle12ExistenceKeepTower.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:JapaneseCastle12ExistenceKeepTower.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "左１列上から ja:姫路城-file:Himeji Castle The Keep Towers.jpg(user:Reggaeman) ja:彦根城-file:Hikone Castle01.jpg(user:Miya.m) ja:松本城-file:Matsumoto Castle 1-1.jpg(user:柑橘類) ja:犬山城-file:Castle in Inuyama.JPG(user:ThorstenS) 中１列上から ja:松江城-file:Matsue castle keep DSC02052.jpg(user:David.Monniaux ) 備中松山城-file:Bitchu Matsuyama Castle 5.JPG(user:Reggaeman) ja:丸岡城-file:Maruoka Castle 20100529-01.jpg(user:baku13) ja:弘前城-file:Hirosaki castle.jpg(user:Angaurits) 右１列上から 松山城-file:MEIN&SMALL CASTLE TOWER ,MATSUYAMA CASTLE(IYO).JPG(user:Jyo81) ja:高知城-file:Kouchi kouchijou3.jpg(user:Mkill) ja:宇和島城-file:Uwajima-jo.JPG(user:Vickerman625) ja:丸亀城-file:Marugame Castle01.jpg(user:Toto-tarou)"
+  },
+  "kochi": {
+    "article": "高知城",
+    "file": "Itagaki Taisuke01.JPG",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Itagaki_Taisuke01.JPG/960px-Itagaki_Taisuke01.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Itagaki_Taisuke01.JPG",
+    "license": "Public domain",
+    "author": "Hakuun Motoyama"
+  },
+  "matsuyama": {
+    "article": "松山城 (伊予国)",
+    "file": "Iyo Matsuyama Burg.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Iyo_Matsuyama_Burg.jpg/960px-Iyo_Matsuyama_Burg.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iyo_Matsuyama_Burg.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Fraxinus2"
+  },
+  "uwajima": {
+    "article": "宇和島城",
+    "file": "JapaneseCastle12ExistenceKeepTower.jpg",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/JapaneseCastle12ExistenceKeepTower.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:JapaneseCastle12ExistenceKeepTower.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "左１列上から ja:姫路城-file:Himeji Castle The Keep Towers.jpg(user:Reggaeman) ja:彦根城-file:Hikone Castle01.jpg(user:Miya.m) ja:松本城-file:Matsumoto Castle 1-1.jpg(user:柑橘類) ja:犬山城-file:Castle in Inuyama.JPG(user:ThorstenS) 中１列上から ja:松江城-file:Matsue castle keep DSC02052.jpg(user:David.Monniaux ) 備中松山城-file:Bitchu Matsuyama Castle 5.JPG(user:Reggaeman) ja:丸岡城-file:Maruoka Castle 20100529-01.jpg(user:baku13) ja:弘前城-file:Hirosaki castle.jpg(user:Angaurits) 右１列上から 松山城-file:MEIN&SMALL CASTLE TOWER ,MATSUYAMA CASTLE(IYO).JPG(user:Jyo81) ja:高知城-file:Kouchi kouchijou3.jpg(user:Mkill) ja:宇和島城-file:Uwajima-jo.JPG(user:Vickerman625) ja:丸亀城-file:Marugame Castle01.jpg(user:Toto-tarou)"
+  },
+  "marugame": {
+    "article": "丸亀城",
+    "file": "Enjyukaku Bekkan (Marugame Castle) 20250409.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Enjyukaku_Bekkan_%28Marugame_Castle%29_20250409.jpg/960px-Enjyukaku_Bekkan_%28Marugame_Castle%29_20250409.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Enjyukaku_Bekkan_(Marugame_Castle)_20250409.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "たいたいたいたい"
+  },
+  "nijo": {
+    "article": "二条城",
+    "file": "20100717 Kyoto Nijo Castle Garden 2714.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/20100717_Kyoto_Nijo_Castle_Garden_2714.jpg/960px-20100717_Kyoto_Nijo_Castle_Garden_2714.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20100717_Kyoto_Nijo_Castle_Garden_2714.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Jakub Hałun"
+  },
+  "shuri": {
+    "article": "首里城",
+    "file": "100927 Shuri Cstl aerial.jpg",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/100927_Shuri_Cstl_aerial.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:100927_Shuri_Cstl_aerial.jpg",
+    "license": "Attribution",
+    "author": "国土交通省国土地理院"
+  },
+  "nemuro-chashi": {
+    "article": "根室半島チャシ跡群",
+    "file": "Château de Himeji02.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Ch%C3%A2teau_de_Himeji02.jpg/960px-Ch%C3%A2teau_de_Himeji02.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Himeji02.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Bernard Gagnon"
+  },
+  "goryokaku": {
+    "article": "五稜郭",
+    "file": "5ryokaku stereo.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/5ryokaku_stereo.jpg/960px-5ryokaku_stereo.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:5ryokaku_stereo.jpg",
+    "license": "Attribution",
+    "author": "国土交通省"
+  },
+  "matsumae": {
+    "article": "松前城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "nejo": {
+    "article": "根城",
+    "file": "Château de Himeji02.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Ch%C3%A2teau_de_Himeji02.jpg/960px-Ch%C3%A2teau_de_Himeji02.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Himeji02.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Bernard Gagnon"
+  },
+  "morioka": {
+    "article": "盛岡城",
+    "file": "171103 Morioka Castle Morioka Iwate pref Japan06n.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/171103_Morioka_Castle_Morioka_Iwate_pref_Japan06n.jpg/960px-171103_Morioka_Castle_Morioka_Iwate_pref_Japan06n.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:171103_Morioka_Castle_Morioka_Iwate_pref_Japan06n.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "663highland"
+  },
+  "tagajo": {
+    "article": "多賀城",
+    "file": "Château de Himeji02.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Ch%C3%A2teau_de_Himeji02.jpg/960px-Ch%C3%A2teau_de_Himeji02.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Himeji02.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Bernard Gagnon"
+  },
+  "sendajo": {
+    "article": "仙台城",
+    "file": "Broken Otemon Wakiyagura.JPG",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Broken_Otemon_Wakiyagura.JPG/960px-Broken_Otemon_Wakiyagura.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Broken_Otemon_Wakiyagura.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "ChiefHira"
+  },
+  "kubota": {
+    "article": "久保田城",
+    "file": "Honmaru Omote-mon gate of Kubota Castle 20240525b.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Honmaru_Omote-mon_gate_of_Kubota_Castle_20240525b.jpg/960px-Honmaru_Omote-mon_gate_of_Kubota_Castle_20240525b.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Honmaru_Omote-mon_gate_of_Kubota_Castle_20240525b.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "掬茶"
+  },
+  "yamagata": {
+    "article": "山形城",
+    "file": "220430 Yamagata Castle Yamagata Yamagata pref Japan02s3.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/220430_Yamagata_Castle_Yamagata_Yamagata_pref_Japan02s3.jpg/960px-220430_Yamagata_Castle_Yamagata_Yamagata_pref_Japan02s3.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:220430_Yamagata_Castle_Yamagata_Yamagata_pref_Japan02s3.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "663highland"
+  },
+  "nihonmatsu": {
+    "article": "二本松城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "aizu-wakamatsu": {
+    "article": "会津若松城",
+    "file": "\"Shachihoko\" roof ornament of The Aizu-Wakamatsu Castle.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/%22Shachihoko%22_roof_ornament_of_The_Aizu-Wakamatsu_Castle.jpg/960px-%22Shachihoko%22_roof_ornament_of_The_Aizu-Wakamatsu_Castle.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Shachihoko%22_roof_ornament_of_The_Aizu-Wakamatsu_Castle.jpg",
+    "license": "Public domain",
+    "author": "投稿者本人"
+  },
+  "shirakawa-komine": {
+    "article": "白河小峰城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "mito": {
+    "article": "水戸城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "ashikaga-yakata": {
+    "article": "鑁阿寺",
+    "file": "Ashikaga Bannaji Kyodo 1.JPG",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Ashikaga_Bannaji_Kyodo_1.JPG/960px-Ashikaga_Bannaji_Kyodo_1.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ashikaga_Bannaji_Kyodo_1.JPG",
+    "license": "CC BY 3.0",
+    "author": "京浜にけ"
+  },
+  "minowa": {
+    "article": "箕輪城",
+    "file": "Château de Himeji02.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Ch%C3%A2teau_de_Himeji02.jpg/960px-Ch%C3%A2teau_de_Himeji02.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Himeji02.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Bernard Gagnon"
+  },
+  "nitta-kanayama": {
+    "article": "新田金山城",
+    "file": "Château de Himeji02.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Ch%C3%A2teau_de_Himeji02.jpg/960px-Ch%C3%A2teau_de_Himeji02.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Himeji02.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Bernard Gagnon"
+  },
+  "hachigata": {
+    "article": "鉢形城",
+    "file": "Hachigata castle historical Museum.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Hachigata_castle_historical_Museum.jpg/960px-Hachigata_castle_historical_Museum.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hachigata_castle_historical_Museum.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "柴錬アワー"
+  },
+  "kawagoe": {
+    "article": "川越城",
+    "file": "Burg Kawagoe Byobu.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Burg_Kawagoe_Byobu.jpg/960px-Burg_Kawagoe_Byobu.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burg_Kawagoe_Byobu.jpg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author"
+  },
+  "sakura": {
+    "article": "佐倉城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "edo": {
+    "article": "江戸城",
+    "file": "Asakusa-Mon.JPG",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Asakusa-Mon.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asakusa-Mon.JPG",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author"
+  },
+  "hachioji": {
+    "article": "八王子城",
+    "file": "Goshudennotaki.JPG",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Goshudennotaki.JPG/960px-Goshudennotaki.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goshudennotaki.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "じゃんもどき"
+  },
+  "odawara": {
+    "article": "小田原城",
+    "file": "161223 Odawara Castle Odawara Japan01s3.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/161223_Odawara_Castle_Odawara_Japan01s3.jpg/960px-161223_Odawara_Castle_Odawara_Japan01s3.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:161223_Odawara_Castle_Odawara_Japan01s3.jpg",
+    "license": "CC BY 2.5",
+    "author": "663highland"
+  },
+  "takeda-yakata": {
+    "article": "武田氏館",
+    "file": "Takedasi-Yakata20251017.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Takedasi-Yakata20251017.jpg/960px-Takedasi-Yakata20251017.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Takedasi-Yakata20251017.jpg",
+    "license": "CC BY 4.0",
+    "author": "武田信徳"
+  },
+  "kofu": {
+    "article": "甲府城",
+    "file": "Back View of Fuji from Dream Mtn in Kai Province (Hiroshige, 1852).jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Back_View_of_Fuji_from_Dream_Mtn_in_Kai_Province_%28Hiroshige%2C_1852%29.jpg/960px-Back_View_of_Fuji_from_Dream_Mtn_in_Kai_Province_%28Hiroshige%2C_1852%29.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Back_View_of_Fuji_from_Dream_Mtn_in_Kai_Province_(Hiroshige,_1852).jpg",
+    "license": "Public domain",
+    "author": "Utagawa Hiroshige"
+  },
+  "matsushiro": {
+    "article": "松代城",
+    "file": "Château de Himeji02.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Ch%C3%A2teau_de_Himeji02.jpg/960px-Ch%C3%A2teau_de_Himeji02.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Himeji02.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Bernard Gagnon"
+  },
+  "ueda": {
+    "article": "上田城",
+    "file": "20080624上田城跡公園ケヤキ並木遊歩道.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/20080624%E4%B8%8A%E7%94%B0%E5%9F%8E%E8%B7%A1%E5%85%AC%E5%9C%92%E3%82%B1%E3%83%A4%E3%82%AD%E4%B8%A6%E6%9C%A8%E9%81%8A%E6%AD%A9%E9%81%93.jpg/960px-20080624%E4%B8%8A%E7%94%B0%E5%9F%8E%E8%B7%A1%E5%85%AC%E5%9C%92%E3%82%B1%E3%83%A4%E3%82%AD%E4%B8%A6%E6%9C%A8%E9%81%8A%E6%AD%A9%E9%81%93.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20080624%E4%B8%8A%E7%94%B0%E5%9F%8E%E8%B7%A1%E5%85%AC%E5%9C%92%E3%82%B1%E3%83%A4%E3%82%AD%E4%B8%A6%E6%9C%A8%E9%81%8A%E6%AD%A9%E9%81%93.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "BehBeh"
+  },
+  "komoro": {
+    "article": "小諸城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "takato": {
+    "article": "高遠城",
+    "file": "Burg Takato Plan 1.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Burg_Takato_Plan_1.jpg/960px-Burg_Takato_Plan_1.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burg_Takato_Plan_1.jpg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author"
+  },
+  "shibata": {
+    "article": "新発田城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "kasugayama": {
+    "article": "春日山城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "takaoka": {
+    "article": "高岡城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "nanao": {
+    "article": "七尾城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "kanazawa": {
+    "article": "金沢城",
+    "file": "131109 Kanazawa Castle Kanazawa Ishikawa pref Japan05s3.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/131109_Kanazawa_Castle_Kanazawa_Ishikawa_pref_Japan05s3.jpg/960px-131109_Kanazawa_Castle_Kanazawa_Ishikawa_pref_Japan05s3.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:131109_Kanazawa_Castle_Kanazawa_Ishikawa_pref_Japan05s3.jpg",
+    "license": "CC BY 2.5",
+    "author": "663highland"
+  },
+  "ichijodani": {
+    "article": "一乗谷城",
+    "file": "Asakura Yakata of Ichijodani Asakura Family Historic Ruins02s3s4440.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Asakura_Yakata_of_Ichijodani_Asakura_Family_Historic_Ruins02s3s4440.jpg/960px-Asakura_Yakata_of_Ichijodani_Asakura_Family_Historic_Ruins02s3s4440.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asakura_Yakata_of_Ichijodani_Asakura_Family_Historic_Ruins02s3s4440.jpg",
+    "license": "CC BY 2.5",
+    "author": "663highland"
+  },
+  "iwamura": {
+    "article": "岩村城",
+    "file": "230501 岩村城表御門 & 太鼓櫓.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/230501_%E5%B2%A9%E6%9D%91%E5%9F%8E%E8%A1%A8%E5%BE%A1%E9%96%80_%26_%E5%A4%AA%E9%BC%93%E6%AB%93.jpg/960px-230501_%E5%B2%A9%E6%9D%91%E5%9F%8E%E8%A1%A8%E5%BE%A1%E9%96%80_%26_%E5%A4%AA%E9%BC%93%E6%AB%93.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:230501_%E5%B2%A9%E6%9D%91%E5%9F%8E%E8%A1%A8%E5%BE%A1%E9%96%80_%26_%E5%A4%AA%E9%BC%93%E6%AB%93.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "名古屋太郎"
+  },
+  "gifu": {
+    "article": "岐阜城",
+    "file": "Gifu-Castle-Towe.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Gifu-Castle-Towe.jpg/960px-Gifu-Castle-Towe.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gifu-Castle-Towe.jpg",
+    "license": "CC0",
+    "author": "MaedaAkihiko"
+  },
+  "yamanaka": {
+    "article": "山中城",
+    "file": "Château de Himeji02.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Ch%C3%A2teau_de_Himeji02.jpg/960px-Ch%C3%A2teau_de_Himeji02.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Himeji02.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Bernard Gagnon"
+  },
+  "sumpu": {
+    "article": "駿府城",
+    "file": "HIgashi-gomonn Shizuoka-Kenkei.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/HIgashi-gomonn_Shizuoka-Kenkei.jpg/960px-HIgashi-gomonn_Shizuoka-Kenkei.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HIgashi-gomonn_Shizuoka-Kenkei.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Naokijp"
+  },
+  "kakegawa": {
+    "article": "掛川城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "okazaki": {
+    "article": "岡崎城",
+    "file": "Aichi-Shinbun-March-25-1959-2033.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Aichi-Shinbun-March-25-1959-2033.jpg/960px-Aichi-Shinbun-March-25-1959-2033.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aichi-Shinbun-March-25-1959-2033.jpg",
+    "license": "Public domain",
+    "author": "愛知新聞社"
+  },
+  "nagashino": {
+    "article": "長篠城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "iga-ueno": {
+    "article": "伊賀上野城",
+    "file": "Haiseiden.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Haiseiden.jpg/960px-Haiseiden.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haiseiden.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "No machine-readable author provided. Outside147~commonswiki assumed (based on copyright claims)."
+  },
+  "matsusaka": {
+    "article": "松阪城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "odani": {
+    "article": "小谷城",
+    "file": "Anegawa Historic Battlefield.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Anegawa_Historic_Battlefield.jpg/960px-Anegawa_Historic_Battlefield.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anegawa_Historic_Battlefield.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "立花左近"
+  },
+  "azuchi": {
+    "article": "安土城",
+    "file": "Aduchi castle-Kuroganemon.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Aduchi_castle-Kuroganemon.jpg/960px-Aduchi_castle-Kuroganemon.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aduchi_castle-Kuroganemon.jpg",
+    "license": "Public domain",
+    "author": "kouko0515"
+  },
+  "kannonji": {
+    "article": "観音寺城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "chihaya": {
+    "article": "千早城",
+    "file": "Chihaya-jinja1.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Chihaya-jinja1.jpg/960px-Chihaya-jinja1.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chihaya-jinja1.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "KENPEI"
+  },
+  "takeda": {
+    "article": "竹田城",
+    "file": "20101106Rituunkyo.JPG",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/20101106Rituunkyo.JPG/960px-20101106Rituunkyo.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20101106Rituunkyo.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "abok"
+  },
+  "sasayama": {
+    "article": "篠山城",
+    "file": "2021-05-19 Tambasasayama,(兵庫県丹波篠山市・篠山盆地・篠山城)空撮 DJI 0233.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/2021-05-19_Tambasasayama%2C%28%E5%85%B5%E5%BA%AB%E7%9C%8C%E4%B8%B9%E6%B3%A2%E7%AF%A0%E5%B1%B1%E5%B8%82%E3%83%BB%E7%AF%A0%E5%B1%B1%E7%9B%86%E5%9C%B0%E3%83%BB%E7%AF%A0%E5%B1%B1%E5%9F%8E%29%E7%A9%BA%E6%92%AE_DJI_0233.jpg/960px-2021-05-19_Tambasasayama%2C%28%E5%85%B5%E5%BA%AB%E7%9C%8C%E4%B8%B9%E6%B3%A2%E7%AF%A0%E5%B1%B1%E5%B8%82%E3%83%BB%E7%AF%A0%E5%B1%B1%E7%9B%86%E5%9C%B0%E3%83%BB%E7%AF%A0%E5%B1%B1%E5%9F%8E%29%E7%A9%BA%E6%92%AE_DJI_0233.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2021-05-19_Tambasasayama,(%E5%85%B5%E5%BA%AB%E7%9C%8C%E4%B8%B9%E6%B3%A2%E7%AF%A0%E5%B1%B1%E5%B8%82%E3%83%BB%E7%AF%A0%E5%B1%B1%E7%9B%86%E5%9C%B0%E3%83%BB%E7%AF%A0%E5%B1%B1%E5%9F%8E)%E7%A9%BA%E6%92%AE_DJI_0233.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "松岡明芳"
+  },
+  "akashi": {
+    "article": "明石城",
+    "file": "Akashi Castle05n4592.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Akashi_Castle05n4592.jpg/960px-Akashi_Castle05n4592.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akashi_Castle05n4592.jpg",
+    "license": "CC BY 2.5",
+    "author": "663highland"
+  },
+  "ako": {
+    "article": "赤穂城",
+    "file": "141115 Ako Castle Ako Hyogo pref Japan01bs3.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/141115_Ako_Castle_Ako_Hyogo_pref_Japan01bs3.jpg/960px-141115_Ako_Castle_Ako_Hyogo_pref_Japan01bs3.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:141115_Ako_Castle_Ako_Hyogo_pref_Japan01bs3.jpg",
+    "license": "CC BY 2.5",
+    "author": "663highland"
+  },
+  "takatori": {
+    "article": "高取城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "wakayama": {
+    "article": "和歌山城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "tottori": {
+    "article": "鳥取城",
+    "file": "Burg Tottori Plan alt.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Burg_Tottori_Plan_alt.jpg/960px-Burg_Tottori_Plan_alt.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burg_Tottori_Plan_alt.jpg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author"
+  },
+  "gassan-toda": {
+    "article": "月山富田城",
+    "file": "Gassan Toda Castle 05.JPG",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Gassan_Toda_Castle_05.JPG/960px-Gassan_Toda_Castle_05.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gassan_Toda_Castle_05.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "by Reggaeman"
+  },
+  "tsuwano": {
+    "article": "津和野城",
+    "file": "Chairlift at Tsuwano Castle Ruins.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Chairlift_at_Tsuwano_Castle_Ruins.jpg/960px-Chairlift_at_Tsuwano_Castle_Ruins.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chairlift_at_Tsuwano_Castle_Ruins.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Heartoftheworld"
+  },
+  "tsuyama": {
+    "article": "津山城",
+    "file": "04-12-24 津山城備中櫓.jpg",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/04-12-24_%E6%B4%A5%E5%B1%B1%E5%9F%8E%E5%82%99%E4%B8%AD%E6%AB%93.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:04-12-24_%E6%B4%A5%E5%B1%B1%E5%9F%8E%E5%82%99%E4%B8%AD%E6%AB%93.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "User:Reggaeman"
+  },
+  "kinojo": {
+    "article": "鬼ノ城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "okayama": {
+    "article": "岡山城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "hiroshima": {
+    "article": "広島城",
+    "file": "16126.d.2(60)-Emperor Meiji arrives safely in Hiroshima Prefecture.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/16126.d.2%2860%29-Emperor_Meiji_arrives_safely_in_Hiroshima_Prefecture.jpg/960px-16126.d.2%2860%29-Emperor_Meiji_arrives_safely_in_Hiroshima_Prefecture.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:16126.d.2(60)-Emperor_Meiji_arrives_safely_in_Hiroshima_Prefecture.jpg",
+    "license": "Public domain",
+    "author": "Nobukazu Yōsai"
+  },
+  "iwakuni": {
+    "article": "岩国城",
+    "file": "Iwakuni castle 05-03.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Iwakuni_castle_05-03.jpg/960px-Iwakuni_castle_05-03.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iwakuni_castle_05-03.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "user:Mkill"
+  },
+  "hagi": {
+    "article": "萩城",
+    "file": "Asa mouri's hagi residence.JPG",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Asa_mouri%27s_hagi_residence.JPG/960px-Asa_mouri%27s_hagi_residence.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asa_mouri%27s_hagi_residence.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "TT mk2"
+  },
+  "tokushima": {
+    "article": "徳島城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "takamatsu": {
+    "article": "高松城 (讃岐国)",
+    "file": "150504 The Kagawa Museum Takamatsu Kagawa pref Japan06s3.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/150504_The_Kagawa_Museum_Takamatsu_Kagawa_pref_Japan06s3.jpg/960px-150504_The_Kagawa_Museum_Takamatsu_Kagawa_pref_Japan06s3.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:150504_The_Kagawa_Museum_Takamatsu_Kagawa_pref_Japan06s3.jpg",
+    "license": "CC BY 2.5",
+    "author": "663highland"
+  },
+  "imabari": {
+    "article": "今治城",
+    "file": "Imabari casrtle5.JPG",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Imabari_casrtle5.JPG/960px-Imabari_casrtle5.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Imabari_casrtle5.JPG",
+    "license": "CC0",
+    "author": "ぺ有家音"
+  },
+  "yuzuki": {
+    "article": "湯築城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "ozu": {
+    "article": "大洲城",
+    "file": "Janome.png",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Janome.png/960px-Janome.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Janome.png",
+    "license": "CC0",
+    "author": "赤口利之助三郎"
+  },
+  "fukuoka": {
+    "article": "福岡城",
+    "file": "1st Moat of Fukuoka Castle Jōnai Chūō-ku Fukuoka City 20220922.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/1st_Moat_of_Fukuoka_Castle_J%C5%8Dnai_Ch%C5%AB%C5%8D-ku_Fukuoka_City_20220922.jpg/960px-1st_Moat_of_Fukuoka_Castle_J%C5%8Dnai_Ch%C5%AB%C5%8D-ku_Fukuoka_City_20220922.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1st_Moat_of_Fukuoka_Castle_J%C5%8Dnai_Ch%C5%AB%C5%8D-ku_Fukuoka_City_20220922.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Hirho"
+  },
+  "nagoya-saga": {
+    "article": "名護屋城",
+    "file": "Hizen-nagoyajo stereo.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Hizen-nagoyajo_stereo.jpg/960px-Hizen-nagoyajo_stereo.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hizen-nagoyajo_stereo.jpg",
+    "license": "Attribution",
+    "author": "国土交通省"
+  },
+  "yoshinogari": {
+    "article": "吉野ヶ里遺跡",
+    "file": "Dōtaku a bronze vessel from Yoshinogari site.JPG",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/D%C5%8Dtaku_a_bronze_vessel_from_Yoshinogari_site.JPG/960px-D%C5%8Dtaku_a_bronze_vessel_from_Yoshinogari_site.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:D%C5%8Dtaku_a_bronze_vessel_from_Yoshinogari_site.JPG",
+    "license": "CC BY-SA 4.0",
+    "author": "Pekachu"
+  },
+  "saga": {
+    "article": "佐賀城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "hirado": {
+    "article": "平戸城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "shimabara": {
+    "article": "島原城",
+    "file": "140321 A view from Shimabara Castle Shimabara Nagasaki pref Japan01s3.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/140321_A_view_from_Shimabara_Castle_Shimabara_Nagasaki_pref_Japan01s3.jpg/960px-140321_A_view_from_Shimabara_Castle_Shimabara_Nagasaki_pref_Japan01s3.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:140321_A_view_from_Shimabara_Castle_Shimabara_Nagasaki_pref_Japan01s3.jpg",
+    "license": "CC BY 2.5",
+    "author": "663highland"
+  },
+  "hitoyoshi": {
+    "article": "人吉城",
+    "file": "Hitoyoshi 01.jpg",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Hitoyoshi_01.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hitoyoshi_01.jpg",
+    "license": "CC BY-SA 1.0",
+    "author": "Shirakawa-yobune"
+  },
+  "funai": {
+    "article": "府内城",
+    "file": "Funai Castle02n4272.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Funai_Castle02n4272.jpg/960px-Funai_Castle02n4272.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Funai_Castle02n4272.jpg",
+    "license": "CC BY 2.5",
+    "author": "663highland"
+  },
+  "oka": {
+    "article": "岡城 (豊後国)",
+    "file": "Bungo Oka Castle.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Bungo_Oka_Castle.jpg/960px-Bungo_Oka_Castle.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bungo_Oka_Castle.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "by Reggaeman"
+  },
+  "obi": {
+    "article": "飫肥城",
+    "file": "Aerial photograph of Obi District 2020.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Aerial_photograph_of_Obi_District_2020.jpg/960px-Aerial_photograph_of_Obi_District_2020.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_photograph_of_Obi_District_2020.jpg",
+    "license": "Attribution",
+    "author": "Geospatial Information Authority of Japan"
+  },
+  "kagoshima": {
+    "article": "鹿児島城",
+    "file": "Goromon Gate ac (1).jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Goromon_Gate_ac_%281%29.jpg/960px-Goromon_Gate_ac_%281%29.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goromon_Gate_ac_(1).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Asturio Cantabrio"
+  },
+  "nakijin": {
+    "article": "今帰仁城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  },
+  "nakagusuku": {
+    "article": "中城城",
+    "file": "Japanese Castle Logo 100px.png",
+    "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Castle_Logo_100px.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Castle_Logo_100px.png",
+    "license": "Public domain",
+    "author": "Yosemite"
+  }
+}

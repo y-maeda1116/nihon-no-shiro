@@ -24,6 +24,7 @@
     "lint": "eslint src/**/*.ts",
     "format": "prettier --write src/** index.html",
     "format:check": "prettier --check src/** index.html",
+    "fetch-photos": "node scripts/fetch-castle-photos.mjs",
     "prepare": "husky"
   },
   "lint-staged": {
