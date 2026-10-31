@@ -9,7 +9,7 @@ const entries = Object.entries(photos);
 
 // 採用ライセンスの許可リスト（fetch-castle-photos.mjs と同じ基準）
 const ALLOWED_LICENSE = /^(cc by-sa|cc by|cc0|public domain|pd|attribution)/i;
-const DENIED_LICENSE = /non-free|fair use|nc|nd/i;
+const DENIED_LICENSE = /non-free|fair use|\bnc\b|\bnd\b/i;
 const WIKIMEDIA_THUMB_HOSTS = /^(upload|thumb)\.wikimedia\.org$/;
 
 describe("castle-photos.json", () => {

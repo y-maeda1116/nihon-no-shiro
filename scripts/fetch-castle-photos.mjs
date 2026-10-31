@@ -36,7 +36,7 @@ const TITLE_OVERRIDES = {
 const FILE_NAME_EXCLUDE = /地図|位置図|略図|紋|旗|ロゴ|ロケータ|Map|map|locator|coat|flag|seal/;
 
 const ALLOWED_LICENSE = /^(cc by-sa|cc by|cc0|public domain|pd|attribution)/i;
-const DENIED_LICENSE = /non-free|fair use|nc|nd/i;
+const DENIED_LICENSE = /non-free|fair use|\bnc\b|\bnd\b/i;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -66,13 +66,15 @@ function cleanThumbUrl(url) {
 }
 
 function stripHtml(text) {
+  // 先に実体参照をデコードしてからタグを除去する（&lt;script&gt; の復元を防ぐ）
   return text
-    .replace(/<[^>]*>/g, "")
-    .replace(/&amp;/g, "&")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
     .replace(/&#039;|&apos;/g, "'")
+    .replace(/&amp;/g, "&")
+    .replace(/<[^>]*>/g, "")
+    .replace(/</g, "")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -105,10 +107,12 @@ async function fileInfos(fileTitles) {
   for (const page of data.query?.pages ?? []) {
     const info = page?.imageinfo?.[0];
     if (!info) continue;
+    const rawThumbUrl = info.thumburl ?? info.url;
+    if (!rawThumbUrl) continue;
     const meta = info.extmetadata ?? {};
     byTitle.set(page.title, {
       mime: info.mime,
-      thumbUrl: cleanThumbUrl(info.thumburl ?? info.url),
+      thumbUrl: cleanThumbUrl(rawThumbUrl),
       sourceUrl: info.descriptionurl,
       license: stripHtml(meta.LicenseShortName?.value ?? ""),
       author: stripHtml(meta.Artist?.value ?? ""),
@@ -138,6 +142,8 @@ async function main() {
         .filter((file) => !FILE_NAME_EXCLUDE.test(file))
         .slice(0, 10)
         .map((file) => file.replace(/^ファイル:/, "File:"));
+      // 全候補が除外された場合は空の titles でリクエストしない
+      if (candidates2.length === 0) continue;
       const infos = await fileInfos(candidates2);
       for (const file of candidates2) {
         const info = infos.get(file);
@@ -163,7 +169,9 @@ async function main() {
       console.log(`ok   ${castle.id}: ${adopted.license} / ${adopted.author.slice(0, 30)}`);
     } else {
       missing.push(castle.id);
-      console.log(`skip ${castle.id}${articleFound ? " (適切なライセンスの写真なし)" : " (記事なし)"}`);
+      console.log(
+        `skip ${castle.id}${articleFound ? " (適切なライセンスの写真なし)" : " (記事なし)"}`
+      );
     }
   }
 
