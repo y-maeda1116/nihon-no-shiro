@@ -65,19 +65,41 @@ function cleanThumbUrl(url) {
   return parsed.toString();
 }
 
+/** 実体参照を表示用テキストへ変換する（'<', '>' は生成せず除去する） */
+function decodeEntities(text) {
+  let out = "";
+  let i = 0;
+  while (i < text.length) {
+    const amp = text.indexOf("&", i);
+    if (amp === -1) break;
+    out += text.slice(i, amp);
+    const semi = text.indexOf(";", amp);
+    if (semi === -1) break;
+    const entity = text.slice(amp, semi + 1);
+    if (entity === "&quot;") out += '"';
+    else if (entity === "&#039;" || entity === "&#39;" || entity === "&apos;") out += "'";
+    else if (entity === "&amp;") out += "&";
+    // '&lt;' / '&gt;' および未対応の実体参照はその文字への復元をしない
+    i = semi + 1;
+  }
+  out += text.slice(i);
+  return out;
+}
+
+/** HTML タグ（通常形式・実体参照形式とも）を除去してプレーンテキスト化する */
 function stripHtml(text) {
-  // タグ（通常形式・実体参照形式とも）を除去してから、表示用の実体参照のみデコードする。
-  // どの置換でも '<' / '>' を生成しないため、HTML 要素が復元されることはない。
-  return text
-    .replace(/<[^>]*>/g, "")
-    .replace(/&lt;.*?&gt;/g, "")
-    .replace(/&lt;/g, "")
-    .replace(/&gt;/g, "")
-    .replace(/&quot;/g, '"')
-    .replace(/&#0?39;|&apos;/g, "'")
-    .replace(/&amp;/g, "&")
-    .replace(/\s+/g, " ")
-    .trim();
+  let out = "";
+  let inTag = false;
+  for (const ch of text) {
+    if (ch === "<") {
+      inTag = true;
+    } else if (ch === ">") {
+      inTag = false;
+    } else if (!inTag) {
+      out += ch;
+    }
+  }
+  return decodeEntities(out).split(/\s+/).filter(Boolean).join(" ");
 }
 
 /** 記事の先頭の画像ファイル名リストを返す */
