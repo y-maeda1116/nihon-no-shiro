@@ -66,17 +66,16 @@ function cleanThumbUrl(url) {
 }
 
 function stripHtml(text) {
-  // 先に実体参照をデコードしてからタグを除去する（&lt;script&gt; の復元を防ぐ）。
-  // 途中のデコードで `<` が現れても、後段で全て除去するため出力に <script は残らない。
-  // codeql[js/incomplete-multi-character-sanitization]
+  // タグ（通常形式・実体参照形式とも）を除去してから、表示用の実体参照のみデコードする。
+  // どの置換でも '<' / '>' を生成しないため、HTML 要素が復元されることはない。
   return text
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&quot;/g, '"')
-    .replace(/&#039;|&apos;/g, "'")
-    .replace(/&amp;/g, "&")
     .replace(/<[^>]*>/g, "")
-    .replace(/</g, "")
+    .replace(/&lt;.*?&gt;/g, "")
+    .replace(/&lt;/g, "")
+    .replace(/&gt;/g, "")
+    .replace(/&quot;/g, '"')
+    .replace(/&#0?39;|&apos;/g, "'")
+    .replace(/&amp;/g, "&")
     .replace(/\s+/g, " ")
     .trim();
 }
